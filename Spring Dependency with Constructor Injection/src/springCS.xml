@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans 
+     xmlns="http://www.springframework.org/schema/beans"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.springframework.org/schema/beans
+     https://www.springframework.org/schema/beans/spring-beans.xsd">
+     
+     
+     <bean id="adrs" class="com.constructor.secondary.Address">
+        <constructor-arg value="Kanchanwadi"></constructor-arg>
+        <constructor-arg value="Sambhajinagar"></constructor-arg>
+      </bean>
+      
+      <bean id="s" class="com.constructor.secondary.Student">
+           <constructor-arg  value="111"></constructor-arg>
+           <constructor-arg  value="Sharad Butte"></constructor-arg>
+           <constructor-arg  ref="adrs"></constructor-arg>
+      
+      </bean>
+     
+     
+     
+     
+</beans>
