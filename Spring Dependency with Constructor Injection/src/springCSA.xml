@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans 
+     xmlns="http://www.springframework.org/schema/beans"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.springframework.org/schema/beans
+     https://www.springframework.org/schema/beans/spring-beans.xsd">
+     
+     <bean id="m1"   class="com.constructor.secondaryArray.MoNo">
+          <constructor-arg  value="9595690604"></constructor-arg>
+     </bean>
+     
+     <bean id="m2"   class="com.constructor.secondaryArray.MoNo">
+          <constructor-arg  value="7020686229"></constructor-arg>
+     </bean>
+     
+     <bean id="m3"   class="com.constructor.secondaryArray.MoNo">
+          <constructor-arg  value="9767905813"></constructor-arg>
+     </bean>
+     
+     <bean id="s" class="com.constructor.secondaryArray.Student">
+       <constructor-arg value="111"></constructor-arg>
+       <constructor-arg value="Sonal Bhagat"></constructor-arg>
+       <constructor-arg>
+        <list>
+           <ref bean="m1"/>
+           <ref bean="m2"/>
+           <ref bean="m3"/>
+        </list>
+       </constructor-arg>
+     </bean>
+     
+     
+     
+     
+     
+     
+</beans>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans 
+     xmlns="http://www.springframework.org/schema/beans"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.springframework.org/schema/beans
+     https://www.springframework.org/schema/beans/spring-beans.xsd">
+     
+     <bean id="s" class="com.constructor.primitivesArray.Student">
+          <constructor-arg value="101"></constructor-arg>
+          <constructor-arg  value="Sandeep Aghav"></constructor-arg>
+          <constructor-arg>
+            <list>
+             <value>7020686229</value>
+             <value>9595690604</value>
+             <value>9021461400</value>
+            
+            </list>
+          </constructor-arg>
+     
+     </bean>
+     
+     
+     
+     
+     
+</beans>     
