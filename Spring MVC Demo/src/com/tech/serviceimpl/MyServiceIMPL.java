@@ -1,5 +1,7 @@
 package com.tech.serviceimpl;
 
+import java.util.List;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -18,6 +20,20 @@ public class MyServiceIMPL implements MyService{
 	public int saveData(Student s) {
 		
 		return daoi.saveData(s);
+	}
+
+
+	@Override
+	public List<Student> getAllData() {
+		
+		return daoi.getAllData();
+	}
+
+
+	@Override
+	public List<Student> getSingleData(String us, String pw) {
+		
+		return daoi.getSingleData(us, pw);
 	}
 	
 	

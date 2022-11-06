@@ -9,6 +9,7 @@
 <body style="background: lightpink ">
 <form action="reg" style="background: skyblue">
 <pre>
+<h1>
 Student  ID:     <input type="text" name="sid">
 
 Student Name:    <input type="text" name="sname">
@@ -20,7 +21,7 @@ Student Username:<input type="text" name="UserName">
 Student Password:<input type="text" name="userPass">
 
 <input type="submit" value="REGISTER" style="background: lightgreen">
-
+</h1>
 </pre>
 </form>
 

@@ -8,17 +8,16 @@
 </head>
 <body style="background: pink">
 <form action="log" style="background:skyblue" >
+<h1>
 <pre>
-Student UserName:   <input type="text" name="UserName">
+Student UserName:   <input type="text" name="UserName"  value="Enter the UserName Here">
 
-Student Password:<input type="text" name="userPass">
+Student Password:   <input type="text" name="userPass"   value="Enter the Password Here">
 
-
-
-<input type="submit"  value="SUBMIT" style="background:lightGreen">
-
-
-<a href="Register.jsp"> FOR NEW REGISTRATION</a>
+<input type="SUBMIT"  value="SUBMIT" style="background:lightGreen">
+</h1>
+<h2>
+<a href="Register.jsp"> FOR NEW STUDENT REGISTRATION</a>
 </h2>
 </pre>
 </form>

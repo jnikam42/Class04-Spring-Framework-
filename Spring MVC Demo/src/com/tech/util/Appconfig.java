@@ -10,7 +10,7 @@ import org.springframework.orm.hibernate5.LocalSessionFactoryBean;
 import org.springframework.web.servlet.config.annotation.EnableWebMvc;
 import org.springframework.web.servlet.view.InternalResourceViewResolver;
 
-@EnableWebMvc
+
 @ComponentScan(basePackages ="com.tech")
 @Configuration
 public class Appconfig {
