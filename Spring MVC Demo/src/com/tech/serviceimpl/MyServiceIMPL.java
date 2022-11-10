@@ -35,6 +35,13 @@ public class MyServiceIMPL implements MyService{
 		
 		return daoi.getSingleData(us, pw);
 	}
+
+
+	@Override
+	public void deleteData(int id) {
+		// TODO Auto-generated method stub
+		
+	}
 	
 	
 

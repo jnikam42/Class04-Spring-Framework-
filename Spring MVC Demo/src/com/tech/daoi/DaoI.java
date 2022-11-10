@@ -11,5 +11,7 @@ public interface DaoI {
 	public List<Student>getAllData();
 	
 	public List<Student>getSingleData(String us,String pw);
+	
+	 public void deleteData(int id);
 
 }

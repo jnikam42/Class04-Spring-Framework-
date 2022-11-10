@@ -62,5 +62,10 @@ public class DaoIMPL  implements DaoI{
 		
 			return list;
 		}
+		@Override
+		public void deleteData(int id) {
+			// TODO Auto-generated method stub
+			
+		}
 
 }

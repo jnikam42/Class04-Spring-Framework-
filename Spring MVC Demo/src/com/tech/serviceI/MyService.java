@@ -12,4 +12,6 @@ public interface MyService
   public List<Student>getAllData();
   
   public List<Student>getSingleData(String us,String pw);
+  
+  public void deleteData(int id);
 }

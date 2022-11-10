@@ -9,9 +9,9 @@ public class Student {
 	@Id
 	private int sid;
 	private String sname;
-	private String Addrs;
-	private String UserName;
-	private String userPass;
+	private String addrs;
+	private String username;
+	private String userpass;
 	public int getSid() {
 		return sid;
 	}
@@ -25,22 +25,23 @@ public class Student {
 		this.sname = sname;
 	}
 	public String getAddrs() {
-		return Addrs;
+		return addrs;
 	}
 	public void setAddrs(String addrs) {
-		Addrs = addrs;
+		this.addrs = addrs;
 	}
-	public String getUserName() {
-		return UserName;
+	public String getUsername() {
+		return username;
 	}
-	public void setUserName(String userName) {
-		UserName = userName;
+	public void setUsername(String username) {
+		this.username = username;
 	}
-	public String getUserPass() {
-		return userPass;
+	public String getUserpass() {
+		return userpass;
 	}
-	public void setUserPass(String userPass) {
-		this.userPass = userPass;
+	public void setUserpass(String userpass) {
+		this.userpass = userpass;
 	}
-
+	
+	
 }
